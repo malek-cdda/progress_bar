@@ -28,11 +28,12 @@ export default function RootLayout({
             {" "}
             Home
           </Link>
+
           <Link
-            href="/home"
+            href="/products"
             className="bg-blue-300 hover:bg-blue-400 rounded-xl px-4 py-2">
             {" "}
-            Dashboard
+            Products
           </Link>
         </div>
         {children}{" "}
