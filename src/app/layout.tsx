@@ -3,8 +3,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-import { AppProgressBar } from "next-nprogress-bar";
+// import { AppProgressBar } from "next-nprogress-bar";
 import Link from "next/link";
+import { AppProgressBar } from "@/utils/ProgressBar/appDir";
 
 const inter = Inter({ subsets: ["latin"] });
 
